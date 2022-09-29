@@ -1,0 +1,290 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<body id="particles-js">
+  <canvas id="canvas"></canvas>
+  <div id="colorlib-page">
+    <div class="container-wrap">
+      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+      <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+        <div class="text-center">
+          <div class="author-img" style="background-image: url(image/profile.jpeg);"></div>
+          <h1 id="colorlib-logo"><a href="{% url 'home' %}">Aarju Raj Arya</a></h1>
+          <span><strong><u>Tech Stacks</u></strong></span><br>
+          <span class='badge badge-secondary'>HTML5</span>
+          <span class='badge badge-secondary'>CSS</span>
+          <span class='badge badge-secondary'>Bootstrap</span>
+          <span class='badge badge-secondary'>JavaScript</span>
+          <span class='badge badge-secondary'>Jquery</span>
+          <span class='badge badge-secondary'>Flask</span>
+          <span class='badge badge-secondary'>Django</span>
+          <span class='badge badge-secondary'>MySQL</span>
+          <span class='badge badge-secondary'>Wordpress</span>
+          <span class='badge badge-secondary'>AWS</span>
+          <span class='badge badge-secondary'>Go Daddy</span>
+          <span class='badge badge-secondary'>Siteground</span>
+        </div>
+      </aside>
+      <div id="colorlib-main">
+        <section class="colorlib-about" data-section="about">
+          <div class="colorlib-narrow-content">
+            <div class="row">
+              <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                <div class="col-md-12">
+                  <div class="about-desc">
+                    <h2>Web Development</h2>
+                    <hr>
+                    <p>Websites and Web Apps are the first line of communication between enterprices and potential guests or visitors.</p>
+                    <p>Web development services help your company to increase product knowledge, maintain communication between you and potential clients, sell your products or services, generate leads for the business, and increase the popularity of
+                      your company and much more.</p>
+                    <div class="col-md-12">
+                      <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                        <br>
+                        <ul class="fa-ul mb-0">
+                          <li>
+                            <i class="fa-li fa fa-check"></i>
+                            <div onmouseover="document.querySelector('#colorlib-main > section.colorlib-skills > div > div > div:nth-child(3) > article > ul > li:nth-child(1) > div > a > div:nth-child(1)').style.backgroundColor='#78C2AD'"
+                              onmouseout="document.querySelector('#colorlib-main > section.colorlib-skills > div > div > div:nth-child(3) > article > ul > li:nth-child(1) > div > a > div:nth-child(1)').style.backgroundColor=''">
+                              <a href="http://www.covidworld.life" style="text-decoration:none;">
+                                <div>
+                                  <h4 class="mb-3">Covidworld</h4>
+                                </div>
+                                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
+                                  <div id="divMain">
+                                    <div id='left-div' class="resume-content">
+                                      <img style='float:left; margin:0 20px;' width='300px;' class='img-fluid' src='image/covidworld.png'>
+                                    </div>
+                                    <div id='right-div' class='resume-content'>
+                                      <div class="subheading mb-0">
+                                        <p>It is an implementation to Setup Amazon S2 in a Django Project, how to use S2 to handle user uploaded files.</p>
+                                      </div>
+                                      <div class="mb-0">
+                                        <span class='badge badge-secondary'>Django</span>
+                                        <span class='badge badge-secondary'>AWS</span>
+                                        <span class='badge badge-secondary'>Bootstrap</span>
+                                        <span class='badge badge-primary'>HTML5</span>
+                                        <span class='badge badge-secondary'>CSS3</span>
+                                        <br><br>
+                                        <iframe src="https://ghbtns.com/github-btn.html?user=aarjuraj&repo=Covidworld&type=watch&count=true&size=small&v=2" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+                                        <iframe src="https://ghbtns.com/github-btn.html?user=aarjuraj&repo=Covidworld&type=star&count=true&size=small" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+                                        <iframe src="https://ghbtns.com/github-btn.html?user=aarjuraj&repo=Covidworld&type=fork&count=true&size=small" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </li>
+                          <br>
+                          <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                            <li>
+                              <i class="fa-li fa fa-check"></i>
+                              <div onmouseover="document.querySelector('#colorlib-main > section.colorlib-skills > div > div > div:nth-child(3) > article > ul > li:nth-child(1) > div > a > div:nth-child(1)').style.backgroundColor='#78C2AD'"
+                                onmouseout="document.querySelector('#colorlib-main > section.colorlib-skills > div > div > div:nth-child(3) > article > ul > li:nth-child(1) > div > a > div:nth-child(1)').style.backgroundColor=''">
+                                <a href="https://www.github.com/aarjuraj/Online-Crime-Report" style="text-decoration:none;">
+                                  <div>
+                                    <h4 class="mb-3">Online Crime Report</h4>
+                                  </div>
+                                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
+                                    <div id="divMain">
+                                      <div id='left-div' class="resume-content">
+                                        <img style='float:left; margin:0 20px;' width='300px;' class='img-fluid' src='image/OCR.png'>
+                                      </div>
+                                      <div id='right-div' class='resume-content'>
+                                        <div class="subheading mb-0">
+                                          <p>Developed an Online application to provide Remote Access to the Indian citizen To file an FIR Against Crime and illegal Activites.</p>
+                                        </div>
+                                        <div class="mb-0">
+                                          <span class='badge badge-secondary'>HTML5</span>
+                                          <span class='badge badge-secondary'>CSS</span>
+                                          <span class='badge badge-secondary'>Bootstrap</span>
+                                          <span class='badge badge-primary'>PHP</span>
+                                          <span class='badge badge-primary'>.NET</span>
+                                          <span class='badge badge-primary'>MySQL</span>
+                                          <br><br>
+                                          <iframe src="https://ghbtns.com/github-btn.html?user=aarjuraj&repo=Online-Crime-Report&type=watch&count=true&size=small&v=2" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+                                          <iframe src="https://ghbtns.com/github-btn.html?user=aarjuraj&repo=Online-Crime-Report&type=star&count=true&size=small" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+                                          <iframe src="https://ghbtns.com/github-btn.html?user=aarjuraj&repo=Online-Crime-Report&type=fork&count=true&size=small" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                            </li>
+                            <br>
+                            <br>
+
+                          </article>
+                          <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                            <li>
+                              <i class="fa-li fa fa-check"></i>
+                              <div onmouseover="document.querySelector('#colorlib-main > section.colorlib-skills > div > div > div:nth-child(3) > article > ul > li:nth-child(5) > div > a > div:nth-child(1)').style.backgroundColor='#78C2AD'"
+                                onmouseout="document.querySelector('#colorlib-main > section.colorlib-skills > div > div > div:nth-child(3) > article > ul > li:nth-child(5) > div > a > div:nth-child(1)').style.backgroundColor=''">
+                                <a href="https://www.aarjuraj.co" style="text-decoration:none;">
+                                  <div>
+                                    <h4 class="mb-3">Web Portfolio</h4>
+                                  </div>
+                                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
+                                    <div id="divMain" width="80%;">
+                                      <div id='left-div' class="resume-content">
+                                        <img style='float:left; margin:0 20px;' width='300px;' height='150px;' class='img-fluid' src='image/portfolio.png'>
+                                      </div>
+                                      <div id='right-div' class='resume-content'>
+                                        <div class="subheading mb-0">
+                                          <p>Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.</p>
+                                        </div>
+                                        <div class="mb-0">
+                                          <span class='badge badge-primary'>Bootstrap</span>
+                                          <span class='badge badge-secondary'>HTML5</span>
+                                          <span class='badge badge-secondary'>CSS3</span>
+                                          <span class='badge badge-secondary'>JavaScript</span>
+                                          <span class='badge badge-secondary'>Jquery</span>
+                                          <span class='badge badge-secondary'>AWS</span>
+                                          <span class='badge badge-secondary'>Windows Server 2019</span>
+                                        </div>
+                                        <br>
+                                        <iframe src="https://ghbtns.com/github-btn.html?user=aarjuraj&repo=Portfolio&type=watch&count=true&size=small&v=2" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+                                        <iframe src="https://ghbtns.com/github-btn.html?user=aarjuraj&repo=Portfolio&type=star&count=true&size=small" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+                                        <iframe src="https://ghbtns.com/github-btn.html?user=aarjuraj&repo=Portfolio&type=fork&count=true&size=small" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                            </li>
+                            <br>
+                          </article>
+                          <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                            <li>
+                              <i class="fa-li fa fa-check"></i>
+                              <div onmouseover="document.querySelector('#colorlib-main > section.colorlib-skills > div > div > div:nth-child(3) > article > ul > li:nth-child(3) > div > a > div:nth-child(1)').style.backgroundColor='#78C2AD'"
+                                onmouseout="document.querySelector('#colorlib-main > section.colorlib-skills > div > div > div:nth-child(3) > article > ul > li:nth-child(3) > div > a > div:nth-child(1)').style.backgroundColor=''">
+                                <a href="https://www.kuwaithelp.com" style="text-decoration:none;">
+                                  <div>
+                                    <h4 class="mb-3">kuwaithelp</h4>
+                                  </div>
+                                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
+                                    <div id="divMain">
+                                      <div id='left-div' class="resume-content">
+                                        <img style='float:left; margin:0 20px;' width='300px;' class='img-fluid' src='image/kuwaithelp.png'>
+                                      </div>
+                                      <div id='right-div' class='resume-content'>
+                                        <div class="subheading mb-0">
+                                          <p>This webpage Is developed to provide Information And News About Kuwait</p>
+                                        </div>
+                                        <div class="mb-0">
+                                          <span class='badge badge-secondary'>HTML5</span>
+                                          <span class='badge badge-secondary'>CSS</span>
+                                          <span class='badge badge-secondary'>W3school</span>
+                                          <span class='badge badge-primary'>Siteground</span>
+                                          <span class='badge badge-secondary'>Go Daddy</span>
+                                          <!--
+                                        <span class='badge badge-secondary'>CSS3</span>
+                                        <span class='badge badge-secondary'>JavaScript</span>
+                                        <span class='badge badge-primary'>Heroku</span>
+                                      -->
+                                        </div>
+                                        <br>
+                                        <iframe src="https://ghbtns.com/github-btn.html?user=aarjuraj&repo=kuwaithelp&type=watch&count=true&size=small&v=2" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+                                        <iframe src="https://ghbtns.com/github-btn.html?user=aarjuraj&repo=kuwaithelp&type=star&count=true&size=small" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+                                        <iframe src="https://ghbtns.com/github-btn.html?user=aarjuraj&repo=kuwaithelp&type=fork&count=true&size=small" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                            </li>
+                          </article>
+                            <br><br>
+                            <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                              <li>
+                                <i class="fa-li fa fa-check"></i>
+                                <div onmouseover="document.querySelector('#colorlib-main > section.colorlib-skills > div > div > div:nth-child(3) > article > ul > li:nth-child(5) > div > a > div:nth-child(1)').style.backgroundColor='#78C2AD'"
+                                  onmouseout="document.querySelector('#colorlib-main > section.colorlib-skills > div > div > div:nth-child(3) > article > ul > li:nth-child(5) > div > a > div:nth-child(1)').style.backgroundColor=''">
+                                  <a href="https://aarjuraj.github.io/login-signup-Html/" style="text-decoration:none;">
+                                    <div>
+                                      <h4 class="mb-3">Login Signup Page</h4>
+                                    </div>
+                                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
+                                      <div id="divMain" width="80%;">
+                                        <div id='left-div' class="resume-content">
+                                          <img style='float:left; margin:0 20px;' width='300px;' height='150px;' class='img-fluid' src='image/loginsignup.png'>
+                                        </div>
+                                        <div id='right-div' class='resume-content'>
+                                          <div class="subheading mb-0">
+                                            <p>This Login Signup Project Is Developed During Internship At Gautam Infotech </p>
+                                          </div>
+                                          <div class="mb-0">
+                                            <span class='badge badge-primary'>HTML5</span>
+                                            <span class='badge badge-secondary'>CSS3</span>
+                                            <span class='badge badge-secondary'>W3school</span>
+                                            <span class='badge badge-secondary'>Bootstrap</span>
+                                            <span class='badge badge-secondary'>GitHUb Pages</span>
+                                            <!--
+                                        <span class='badge badge-secondary'>JavaScript</span>
+                                      -->
+                                          </div>
+                                          <br>
+                                          <iframe src="https://ghbtns.com/github-btn.html?user=aarjuraj&repo=login-signup-Html&type=watch&count=true&size=small&v=2" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+                                          <iframe src="https://ghbtns.com/github-btn.html?user=aarjuraj&repo=login-signup-Html&type=star&count=true&size=small" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+                                          <iframe src="https://ghbtns.com/github-btn.html?user=aarjuraj&repo=login-signup-Html&type=fork&count=true&size=small" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+                              </li>
+                              <br>
+                        </ul>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="colorlib-footer" data-section="footer">
+          <div class="colorlib-narrow-content">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInRight">
+                  <div class="hire">
+
+                    <p style="text-align: center"><strong>If you like my work and efforts Want To Hire .<br>Feel Free To Contact!</strong></p>
+
+                    <div align=center>
+                      <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+
+                      <a class="bmc-button" target="_blank" href="https://www.linkedin.com/in/aarjuraj"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" alt="Hire Me"><span
+                          style="margin-left:5px">Hire me</span></a>
+
+                      <br><br>
+                      <p style="font-size: 30px; margin-bottom: 0px;">
+                        <a href="https://www.github.com/aarjuraj" target="_blank" style="color: black;" class="fa fa-github">&nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://www.linkedin.com/in/aarjuraj/" target="_blank" style="color: black;" class="fa fa-linkedin"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://www.quora.com/profile/aarju-raj-arya" target="_blank" style="color: black;" class="fa fa-quora"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://twitter.com/imaarjuraj" target="_blank" style="color: black;" class="fa fa-twitter"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://www.facebook.com/beingaarjuraj" target="_blank" style="color: black;" class="fa fa-facebook"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://www.instagram.com/beingaarjuraj" target="_blank" style="color: black;" class="fa fa-instagram"></a>
+
+                      </p>
+                    </div>
+                    <!--
+                    <p style="text-align: center; margin-bottom: -20px;"><strong>&copy; No Copyrights, feel free to use this template.</strong></p>
+                  -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- End #projects -->
+{% endblock %}

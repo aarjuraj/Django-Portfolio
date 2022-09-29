@@ -1,0 +1,192 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+  <canvas id="canvas"></canvas>
+  <div id="colorlib-page">
+    <div class="container-wrap">
+      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+      <!----Side bar--->
+      <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+        <div class="text-center">
+          <div class="author-img" style="background-image: url(image/profile.jpeg);"></div>
+          <h1 id="colorlib-logo"><a href="{% url 'home' %}">Aarju Raj Arya</a></h1>
+          <p><strong>Programming/Social Profile</strong></p>
+        </div>
+      </aside>
+      <!----- main page--------->
+      <div id="colorlib-main">
+        <!------Skills---------------->
+        <section class="colorlib-skills" data-section="skills">
+          <div class="colorlib-narrow-content">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                <!--	<span class="heading-meta">My Specialty</span> -->
+                <h2>Programming Profile</h2>
+                <hr>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                <div class="progress-wrap">
+                  <strong>
+                    <a href="https://www.codechef.com/users/aarjuraj">
+                      <p style="color:firebrick">Codechef</p>
+                    </a>
+                  </strong>
+                </div>
+              </div>
+              <!--
+                          <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                             <div class="progress-wrap">
+                                <strong>
+                                   <a href="https://codeforces.com/profile/aarjuraj">
+                                      <p style="color:deeppink">Codeforces</p>
+                                   </a>
+                                </strong>
+                             </div>
+                          </div>
+  -->
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                <div class="progress-wrap">
+                  <strong>
+                    <a href="https://auth.geeksforgeeks.org/user/aarjuraj/profile">
+                      <p style="color:darkgreen">Geekforgeeks</p>
+                    </a>
+                  </strong>
+                </div>
+              </div>
+              <!--
+                          <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                             <div class="progress-wrap">
+                                <strong>
+                                   <a href="https://www.hackerearth.com/aarjuraj">
+                                      <p style="color:dimgrey">HackerEarth</p>
+                                   </a>
+                                </strong>
+                             </div>
+                          </div>
+  -->
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                <div class="progress-wrap">
+                  <strong>
+                    <a href="https://www.hackerrank.com/aarjuraj">
+                      <p style="color:forestgreen">HackerRank</p>
+                    </a>
+                  </strong>
+                </div>
+              </div>
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                <div class="progress-wrap">
+                  <strong>
+                    <a href="https://github.com/aarjuraj">
+                      <p style="color:black">GitHub</p>
+                    </a>
+                  </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="colorlib-skills" data-section="skills">
+          <div class="colorlib-narrow-content">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                <!--	<span class="heading-meta">My Specialty</span> -->
+                <h2>Social profile</h2>
+                <hr>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                <div class="progress-wrap">
+                  <strong>
+                    <a href="https://www.linkedin.com/in/aarjuraj/">
+                      <p style="color:dodgerblue">Linkedin</p>
+                    </a>
+                  </strong>
+                </div>
+              </div>
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                <div class="progress-wrap">
+                  <strong>
+                    <a href="https://quora.com/profile/aarju-raj-arya">
+                      <p style="color:darkred">Quora</p>
+                    </a>
+                  </strong>
+                </div>
+              </div>
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                <div class="progress-wrap">
+                  <strong>
+                    <a href="https://facebook.com/@beingaarjuraj">
+                      <p style="color:aquamarine">Facebook</p>
+                    </a>
+                  </strong>
+                </div>
+              </div>
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                <div class="progress-wrap">
+                  <strong>
+                    <a href="https://www.instagram.com/beingaarjuraj">
+                      <p style="color:darkorange">Instagram</p>
+                    </a>
+                  </strong>
+                </div>
+              </div>
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                <div class="progress-wrap">
+                  <strong>
+                    <a href="https://twitter.com/imaarjuraj">
+                      <p style="color:dodgerblue">Twitter</p>
+                    </a>
+                  </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---Footer------------->
+        <section class="colorlib-footer" data-section="footer">
+          <div class="colorlib-narrow-content">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInRight">
+                  <div class="hire">
+
+                    <p style="text-align: center"><strong>If you like my work and efforts Want To Hire .<br>Feel Free To Contact!</strong></p>
+
+                    <div align=center>
+                      <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+
+                      <a class="bmc-button" target="_blank" href="https://www.linkedin.com/in/aarjuraj"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" alt="Hire Me"><span style="margin-left:5px">Hire
+                          me</span></a>
+
+                      <br><br>
+                      <p style="font-size: 30px; margin-bottom: 0px;">
+                        <a href="https://www.github.com/aarjuraj" target="_blank" style="color: black;" class="fa fa-github">&nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://www.linkedin.com/in/aarjuraj/" target="_blank" style="color: black;" class="fa fa-linkedin"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://www.quora.com/profile/aarju-raj-arya" target="_blank" style="color: black;" class="fa fa-quora"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://twitter.com/imaarjuraj" target="_blank" style="color: black;" class="fa fa-twitter"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://www.facebook.com/beingaarjuraj" target="_blank" style="color: black;" class="fa fa-facebook"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://www.instagram.com/beingaarjuraj" target="_blank" style="color: black;" class="fa fa-instagram"></a>
+
+                      </p>
+                    </div>
+                    <!--
+                    <p style="text-align: center; margin-bottom: -20px;"><strong>&copy; No Copyrights, feel free to use this template.</strong></p>
+                  -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- end:colorlib-main -->
+    </div>
+    <!-- end:container-wrap -->
+  </div>
+  <!-- end:colorlib-page -->
+{% endblock %}

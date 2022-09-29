@@ -1,0 +1,557 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+      <!----- main page--------->
+      <div id="colorlib-main">
+        <!---------------About me---------------------->
+        <section class="colorlib-about" data-section="about">
+          <div class="colorlib-narrow-content">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                  <div class="col-md-12">
+                    <div class="about-desc">
+                      <h1><strong>Aarju Raj <span style="color: #FACD69">Arya</span></strong></h1>
+                      <hr>
+                      <p>Hi, Welcome to my portfolio.</p>
+                      <p>I'm a software developer and B.Tech (computer science and Engineering) undergraduate student at Greater Noida Institute Of Technology,Greater Noida.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 animate-box" data-animate-effect="fadeInRight">
+                    <a href="{% url 'programmingprofile' %}" target="_blank">
+                      <div class="services color-5">
+                        <span class="icon2"><i class="fa fa-desktop"></i></span>
+                        <h3>Programming/<br>Social Profile</h3>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4 animate-box" data-animate-effect="fadeInRight">
+                    <a href="{% url 'webdevelopment' %}" target="_blank">
+                      <div class="services color-2">
+                        <span class="icon2"><i class="fa fa-code"></i></span>
+                        <h3>Web<br> Development</h3>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-md-4 animate-box" data-animate-effect="fadeInRight">
+                    <a href="datascience.html" target="_blank">
+                      <div class="services color-3">
+                        <span class="icon2"><i class="fa fa-terminal"></i></span>
+                        <h3>Data <br> Science</h3>
+                      </div>
+                    </a>
+                  </div>
+                  <!--
+                  <div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+                    <a href="androidDev.html" target="_blank">
+                      <div class="services color-4">
+                        <span class="icon2"><i class="fa fa-android"></i></span>
+                        <h3>Android Applications</h3>
+                      </div>
+                    </a>
+                  </div>
+                -->
+                </div>
+                <div class="row">
+                  <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="hire">
+                      <h2>You will be happy to know that I have completed over 10+ projects successfully!</h2>
+                      <!--                                    <a href="#" class="btn-hire" style="text-align: center;">Download Resume</a>-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!------Skills---------------->
+        <section class="colorlib-skills" data-section="skills">
+          <div class="colorlib-narrow-content">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                <!--	<span class="heading-meta">My Specialty</span> -->
+                <div class="about-desc">
+                  <h1>Skills</h1>
+                </div>
+              </div>
+            </div>
+            <p>Some of the significant aptitudes which will assist me with achieving your objectives.</p>
+            <div class="row">
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                <div class="progress-wrap">
+                  <h3 style="font-weight: 500;">HTML5/CSS3/Bootstrap</h3>
+                  <div class="progress">
+                    <div class="progress-bar color-1" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                      <span>70%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                <div class="progress-wrap">
+                  <h3 style="font-weight: 500;">Python3/Django/Flask/Jinja3</h3>
+                  <div class="progress">
+                    <div class="progress-bar color-6" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                      <span>50%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                <div class="progress-wrap">
+                  <h3 style="font-weight: 500;">MySQL/PostgreSQL/SQLLite</h3>
+                  <div class="progress">
+                    <div class="progress-bar color-2" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                      <span>40%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                <div class="progress-wrap">
+                  <h3 style="font-weight: 500;">AWS/Siteground/Godady</h3>
+                  <div class="progress">
+                    <div class="progress-bar color-3" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                      <span>30%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                <div class="progress-wrap">
+                  <h3 style="font-weight: 500;">JavaScript/Jquery</h3>
+                  <div class="progress">
+                    <div class="progress-bar color-4" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:35%">
+                      <span>70%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                <div class="progress-wrap">
+                  <h3 style="font-weight: 500;">Excel/Tableau/Tableau Prep Builder</h3>
+                  <div class="progress">
+                    <div class="progress-bar color-5" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                      <span>50%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                <div class="progress-wrap">
+                  <h3 style="font-weight: 500;">Parrot Security Os/Wireshark/AnonSurf/DeepWeb Hosting</h3>
+                  <div class="progress">
+                    <div class="progress-bar color-6" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                      <span>50%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                <div class="progress-wrap">
+                  <h3 style="font-weight: 500;">Git/Travis</h3>
+                  <div class="progress">
+                    <div class="progress-bar color-7" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                      <span>70%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                <div class="progress-wrap">
+                  <h3 style="font-weight: 500;">Documentation Writing/Communication</h3>
+                  <div class="progress">
+                    <div class="progress-bar color-3" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                      <span>80%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-------Github pie chart--------->
+        <section class="colorlib-skills" data-section="skills">
+          <div class="colorlib-narrow-content">
+            <div class="row">
+              <div class="about-desc">
+                <h1>GitHub Profile Languages <span style="color: #f9bf3f">Pie Chart</span></h1>
+              </div>
+            </div>
+            <iframe width="600" height="600" src="https://ionicabizau.github.io/github-profile-languages/api.html?aarjuraj" frameborder="0"></iframe>
+            <br>
+            <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+            <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+            <div class="calendar"></div>
+            <script>
+              GitHubCalendar(".calendar", "aarjuraj", {
+                responsive: true
+              });
+            </script>
+          </div>
+        </section>
+
+        <!------GitHUb Calender------>
+
+        <!--------------Work Experience----------->
+
+        <section class="colorlib-experience" data-section="experience">
+          <div class="colorlib-narrow-content">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                <div class="about-desc">
+
+                  <h1>Work <span style="color: #f9bf3f">Experience</span></h1>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="timeline-centered">
+                  <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-1">
+                        <i class="fa fa-briefcase"></i>
+                      </div>
+                      <div class="timeline-label">
+                        <h2> IEC College of Engineering</h2>
+                        <h5>Designation : Full Stack Developer</h5>
+                        <h5><span>Feb 2021 - May 2021</span></h5>
+                        <div class="mb-0">
+                          <span class='badge badge-primary'>HTML5</span>
+                          <span class='badge badge-primary'>CSS</span>
+                          <span class='badge badge-primary'>Wordpress</span>
+                          <span class='badge badge-primary'>AWS</span>
+                          <span class='badge badge-primary'>SEO</span>
+                        </div>
+                        <p>Role include Complete Development, Deployment, and Maintainace of iec.edu.in </p>
+                        <p></p>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-1">
+                        <i class="fa fa-briefcase"></i>
+                      </div>
+                      <div class="timeline-label">
+                        <h2> InnerWork India</h2>
+                        <h5>Designation : Full Stack Developer(Intern)</h5>
+                        <h5><span>December 2021 - Feb 2021</span></h5>
+                        <div class="mb-0">
+                          <span class='badge badge-primary'>HTML5</span>
+                          <span class='badge badge-primary'>CSS</span>
+                          <span class='badge badge-primary'>Python 3</span>
+                          <span class='badge badge-primary'>Django</span>
+                          <span class='badge badge-primary'>Wordpress</span>
+                        </div>
+                        <p>Worked on multipal projects related to web development With the team of InnerWork.</p>
+                        <p></p>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-1">
+                        <i class="fa fa-briefcase"></i>
+                      </div>
+                      <div class="timeline-label">
+                        <h2> The Students Cafe </h2>
+                        <h5>Designation : Web Developer (Freelancer)</h5>
+                        <h5><span>December 2019 - March 2020</span></h5>
+                        <div class="mb-0">
+                          <span class='badge badge-primary'>Wordpress</span>
+                          <span class='badge badge-primary'>Elementor</span>
+                          <span class='badge badge-primary'>HTML5</span>
+                          <span class='badge badge-primary'>CSS</span>
+                          <span class='badge badge-primary'>AWS</span>
+                          <span class='badge badge-primary'>Dgital Marketing</span>
+
+                        </div>
+                        <p>Role includes Online food Ordering system Design and Development, Using Wordpress and Their Plugins and Deployment maintanance Of website and AWS EC2 server.</p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-1">
+                        <i class="fa fa-briefcase"></i>
+                      </div>
+                      <div class="timeline-label">
+                        <h2> Gautam India Infotech </h2>
+                        <h5>Designation : Web Developer(Intern)</h5>
+                        <h5><span>June 2019 - July 2019</span></h5>
+                        <div class="mb-0">
+                          <span class='badge badge-primary'>HTML5</span>
+                          <span class='badge badge-primary'>CSS3</span>
+                          <span class='badge badge-primary'>Wordpress</span>
+                          <span class='badge badge-primary'>Elementor</span>
+
+                        </div>
+                        <p>Worked on verious HTML, CSS and Bootstrap4 Template customization , Wordpress website development and Deployment.</p>
+                        <p></p>
+                      </div>
+                    </div>
+                  </article>
+
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--------------Education----------->
+        <section class="colorlib-experience" data-section="experience">
+          <div class="colorlib-narrow-content">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                <div class="about-desc">
+                  <h1>Education</h1>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="timeline-centered">
+                  <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-1">
+                        <i class="fa fa-code"></i>
+                      </div>
+                      <div class="timeline-label">
+                        <h2>Bachelors in Technology (Computer Science and Engineering)</h2>
+                        <p><strong>Greater Noida Institute Of Technology,Greater Noida</strong><br>Courses undertaken Data Strucutures and Algorithms, Operating Systems, Database Management Systems, Networks, Distributed Computing, Object Oriented
+                          Programming, Computer Architecture.</p>
+                        <p></p>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-5">
+                        <i class="fa fa-book"></i>
+                      </div>
+                      <div class="timeline-label">
+                        <h2>Intermediate</h2>
+                        <p><strong>Board of Secondary Education, Bihar</strong><br>Courses undertaken Physics, Chemistry and Mathematics.</p>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-none">
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-------Certification -------->
+        <section class="colorlib-experience" data-section="experience">
+          <div class="colorlib-narrow-content">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                <div class="about-desc">
+                  <h1>Certification</h1>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="timeline-centered">
+
+                  <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-5">
+                        <i class="fa fa-certificate"></i>
+                      </div>
+                      <div class="timeline-label">
+                        <h2>TCS ION</h2>
+                        <p><strong>Career Edge - Knockdown the Lockdown</strong><br>Courses undertaken Communication Skills, Presentation Skills, Soft Skills, Career Guidance Framework, Resume Writing,
+                          Group Discussion Skills, Interview Skills, Business Etiquette, Effective Email Writing, Telephone Etiquette,
+                          Accounting Fundamentals, IT Foundational Skills, And Overview of Artificial Intelligence.</p>
+                        <p><strong>Certificate Id </strong>5-7197344-1016</p>
+                        <a href="https://1drv.ms/b/s!Alc_sclerrk1gxj-0EXpn7LdKuda?e=9bVKSN"target="_blank">View</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-5">
+                        <i class="fa fa-certificate"></i>
+                      </div>
+                      <div class="timeline-label">
+                        <h2>KPMG</h2>
+                        <p><strong>Internship - Data Analytics Consulting</strong><br>Courses undertaken Data Insights ,Data Insights And Presentation , Data Quality Assessment.</p>
+                        <a href="https://1drv.ms/b/s!Alc_sclerrk1gxkQIxNTGMk3JsnW?e=4kZpYy"target="_blank">View</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-5">
+                        <i class="fa fa-certificate"></i>
+                      </div>
+                      <div class="timeline-label">
+                        <h2>Gautam Infotech</h2>
+                        <p><strong>Internship </strong><br>Courses undertaken Web Development And Web Template Design</p>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="timeline-entry begin animate-box" data-animate-effect="fadeInRight">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-none">
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="colorlib-experience" data-section="projects">
+          <div class="colorlib-narrow-content">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                <div class="about-desc">
+                  <h1>Projects Highlight</h1>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="timeline-centered">
+                  <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-1">
+                        <i class="fa fa-code"></i>
+                      </div>
+                      <div class="timeline-label">
+                        <h2>Online Crime Report</h2>
+                        <p><strong>Technology Used</strong><br>Asp.net, C# , MySQL , JavaScript, Xhtml And CSS </p>
+                        <p> <a href="https://github.com/aarjuraj/Online-Crime-Report" target="_blank">Checkout</a> </p>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-1">
+                        <i class="fa fa-code"></i>
+                      </div>
+                      <div class="timeline-label">
+                        <h2>Covid World</h2>
+                        <p><strong>Technology Used</strong><br>HTML5 , CSS , Bootstrap , Django , Jinja , AWS And Godady Domain</p>
+                        <p> <a href="https://github.com/aarjuraj/Covidworld" target="_blank">Checkout</a> </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-1">
+                        <i class="fa fa-code"></i>
+                      </div>
+                      <div class="timeline-label">
+                        <h2>The students Cafe Website</h2>
+                        <p><strong>Technology Used</strong><br>Wordpress ,Restaurant Plugins , AWS And Godady Domain</p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-1">
+                        <i class="fa fa-code"></i>
+                      </div>
+                      <div class="timeline-label">
+                        <h2>Portfolio Profile</h2>
+                        <p><strong>Technology Used</strong><br>HTML5 , CSS , Bootstrap , Angular Js , jQuery , JavaScript AWS And Godady Domain</p>
+                        <p> <a href="https://www.aarjuraj.co" target="_blank">Checkout</a> </p>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-none">
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--------Contact---------->
+        <section class="colorlib-contact" data-section="contact">
+          <div class="colorlib-narrow-content">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                  <div class="about-desc">
+                    <h1>Contact</h1>
+                  </div>
+                  <p>On the off chance that you might want to connect with me, be it for investigating innovation, business, or to simply say hello, don't hesitate to send me an email at <strong><a
+                        href="mailto: connect@aarjuraj.co">connect@aarjuraj.co</a></strong></p>
+                  <br>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!------------Footer------------->
+        <section class="colorlib-footer" data-section="footer">
+          <div class="colorlib-narrow-content">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInRight">
+                  <div class="hire">
+
+                    <p style="text-align: center"><strong>If you like my work and efforts Want To Hire .<br>Feel Free To Contact!</strong></p>
+
+                    <div align=center>
+                      <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+
+                      <a class="bmc-button" target="_blank" href="https://www.linkedin.com/in/aarjuraj"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" alt="Hire Me"><span style="margin-left:5px">Hire
+                          me</span></a>
+
+                      <br><br>
+                      <p style="font-size: 30px; margin-bottom: 0px;">
+                        <a href="https://www.github.com/aarjuraj" target="_blank" style="color: black;" class="fa fa-github">&nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://www.linkedin.com/in/aarjuraj/" target="_blank" style="color: black;" class="fa fa-linkedin"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://www.quora.com/profile/aarju-raj-arya" target="_blank" style="color: black;" class="fa fa-quora"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://twitter.com/imaarjuraj" target="_blank" style="color: black;" class="fa fa-twitter"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://www.facebook.com/beingaarjuraj" target="_blank" style="color: black;" class="fa fa-facebook"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://www.instagram.com/beingaarjuraj" target="_blank" style="color: black;" class="fa fa-instagram"></a>
+
+                      </p>
+                    </div>
+                    <!--
+                    <p style="text-align: center; margin-bottom: -20px;"><strong>&copy; No Copyrights, feel free to use this template.</strong></p>
+                  -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- end:colorlib-main -->
+
+
+  {% endblock %}
